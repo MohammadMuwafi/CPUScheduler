@@ -1,0 +1,76 @@
+#anchor1 {
+	-fx-background-color: linear-gradient(to right top, #fdbb2d 0.0%, #fdbb2d 50.0%, #22c1c3 50.0%);
+	-fx-background-radius: 40.0;
+	-fx-border-width: 1.0px 1.0px 1.0px 1.0px;
+	-fx-border-color: black;
+	-fx-border-radius: 40.0;
+}
+
+#anchor2 {
+	-fx-background-color: linear-gradient(to right top, #fdbb2d 0.0%, #fdbb2d 50.0%, #22c1c3 50.0%);
+	-fx-background-color: #0080ff;
+	-fx-border-width: 1.0px 1.0px 1.0px 1.0px;
+	-fx-border-color: black;
+}
+
+#vb {
+	-fx-background-color: #22c1c3;
+}
+
+#exitProgram {
+	-fx-background-color:  #EE5F4C;
+
+	-fx-background-radius: 100.0;
+	-fx-cursor: hand;
+}
+
+#exitProgram:hover {
+	-fx-background-color: #F21200;
+}
+
+#clickButton, #fileButton, #startButton, #doIt, #About {
+	-fx-background-color: LIGHTSLATEGRAY;
+	-fx-background-radius: 45.0;
+	-fx-border-radius: 40.0;
+	-fx-cursor: hand;
+}
+
+#clickButton:hover, #fileButton:hover, #startButton:hover, #doIt:hover, #About:hover {
+	-fx-background-color: GAINSBORO; 
+}
+
+#table {
+	-fx-background-color: transparent;
+}
+
+.table-row-cell:filled:hover {
+	-fx-background-color: #0096C9;
+}
+
+.combo-box {
+	-fx-text-fill: white; 
+	-fx-background-color: LIGHTSLATEGRAY;
+}
+
+.combo-box-base:hover { 
+	-fx-background-color: white;
+ 	-fx-text-fill: black; 
+}
+
+.label { 
+	-fx-font-weight: bold;
+}
+
+#list {
+	-fx-background-color: transparent;
+}
+
+#list-cell { 
+	-fx-background-color: #0080FF;
+	-fx-cursor: hand;
+}
+
+.list-cell:filled:hover, .combo-box:filled:hover { 
+ 	-fx-background-color: #00f;
+ 	-fx-text-fill: white; 
+}
